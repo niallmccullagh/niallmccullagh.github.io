@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Stamp';
+  src: url("stamp-webfont.ttf"), url("stamp-webfont.eot"), url("stamp-webfont.woff"), url("stamp-webfont.svg"); }
+
+@font-face {
+  font-family: 'MenschBold';
+  src: url("mensch-bold-webfont.ttf"), url("mensch-bold-webfont.eot"), url("mensch-bold-webfont.woff"), url("mensch-bold-webfont.svg"); }
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url("proximanova-regular-webfont.ttf"), url("proximanova-regular-webfont.eot"), url("proximanova-regular-webfont.woff"), url("proximanova-regular-webfont.svg"); }
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url("proximanova-bold-webfont.ttf"), url("proximanova-bold-webfont.eot"), url("proximanova-bold-webfont.woff"), url("proximanova-bold-webfont.svg"); }
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+html {
+  /*background-image: url("cardboard_@2X.png");*/
+  background-size: 600px 600px; }
+
+body {
+  font-family: "ProximaNovaRegular", sans-serif;
+  color: #333;
+  text-align: center;
+  background-image: -webkit-gradient(circle cover, from(rgba(212, 221, 228, 1)), to(rgba(66, 79, 90, 1) 100%));
+  background-image: -webkit-radial-gradient(circle cover, rgba(212, 221, 228, 1), rgba(66, 79, 90, 1) 100%);
+  background-image: -moz-radial-gradient(circle cover, rgba(212, 221, 228, 1), rgba(66, 79, 90, 1) 100%);
+  background-image: -ms-linear-gradient(circle cover, rgba(212, 221, 228, 1), rgba(66, 79, 90, 1) 100%);
+  background-image: -o-linear-gradient(circle cover, rgba(212, 221, 228, 1), rgba(66, 79, 90, 1) 100%); }
+
+p {
+  font-family: 'ProximaNovaRegular';
+  font-size: 14px;
+  color: #333;
+  line-height: 1.65;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  width: 100%;
+  padding: 8px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.42);
+  box-shadow: inset 0 -1px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.03); }
+  p strong {
+    font-family: 'ProximaNovaBold';
+    font-weight: normal;
+    text-transform: uppercase; }
+
+#width {
+  width: 750px;
+  padding: 60px 0 0 0;
+  margin: 0 auto; }
+
+a {
+  color: rgba(0, 33, 71, 1);
+  text-decoration: none; }
+
+a:hover {
+  color: #00539F;
+  text-decoration: none; }
+
+h1 {
+  font-family: 'MenschBold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 92px;
+  text-align: center;
+  color: #2A2A2F;
+  line-height: 1.2;
+  margin-bottom: 0;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.38); }
+
+h2 {
+  font-family: 'ProximaNovaBold';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 29px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.38); }
+
+h3 {
+  font-family: 'ProximaNovaBold';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 22px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.38); }
+
+.code {
+  font-family: Monaco, "Liberation Mono", Courier, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  padding: 18px 0;
+  margin: 36px 0 18px 0;
+  border-radius: 4px;
+  background-color: #26292B;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4); }
+  .code a {
+    color: #fff; }
+
+::selection {
+  background: #c2cb77;
+  /* Safari */ }
+
+::-moz-selection {
+  background: #c2cb77;
+  /* Firefox */ }
