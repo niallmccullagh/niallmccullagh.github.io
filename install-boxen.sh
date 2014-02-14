@@ -81,7 +81,7 @@ if [ ! -f /opt/boxen/repo/.snapshot ]; then
   mkdir -p /opt/boxen/repo
   cd /opt/boxen/repo
 
-  curl --progress-bar -L 'https://api.github.com/repos/mozilla-boxen/base-boxen/tarball/master' | tar -xz - --strip-components 1 && touch .snapshot
+  curl --progress-bar -L 'https://api.github.com/repos/niallmccullagh/our-boxen/tarball/master' | tar -xz - --strip-components 1 && touch .snapshot
 fi
 
 echo "
@@ -93,7 +93,7 @@ echo "
 sudo -p "    Password for sudo again: "  true
 
 cd /opt/boxen/repo
-export BOXEN_REPO_NAME=mozilla-boxen/base-boxen
+export BOXEN_REPO_NAME=niallmccullagh/our-boxen
 script/boxen
 
 cd $HOME
